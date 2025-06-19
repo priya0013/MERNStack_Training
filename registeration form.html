@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .register{
+              border: 2px solid black;
+              margin: 10px;
+              padding: 1px;
+
+        }
+        .bord{
+            border:2px solid black;
+            margin: 10px;
+            padding:1px;
+        }
+        nav{
+            border:2px solid black;
+            position:sticky;
+        }
+        ul{
+            flex-direction: row;
+            
+        }
+        
+
+    </style>
+</head>
+<body style="background-color:rgb(182, 217, 250)">
+    <navbar><!--only sticky position-->
+        <nav>
+            <ul>
+                <li>home</li>
+                <li>about</li>
+                <li>list</li>
+                <li>contact</li>
+
+            </ul>
+        </nav>
+    </navbar>
+    <div class="register">
+    
+        <center>
+        <h1 style="color:brown">Registration Form</h1>
+        <div class="bord">
+            <label for="User Name">User Name</label><br>
+            <input type="text" placeholder="enter an username..."><br>
+            <label for="Email ID">Email ID</label><br>
+            <input type="text" placeholder="enter an email..."><br>
+            <label for="Age">Age</label><br>
+            <input type="number" placeholder="your age"><br>
+            <label for="Date">Date</label><br>
+            <input type="date" placeholder="enter date"><br>
+            <label for="Phone Number">Phone Number</label><br>
+            <input type="number" placeholder="enter your phone number..."><br>
+            <label for="PassWord">Password</label><br>
+            <input type="password" placeholder="enter password"><br>
+            <input type="radio">male
+            <input type="radio">female<br>
+            <input type="checkbox">agree the terms and conditions.<br>
+            <button>Submit</button><br>
+        </div>
+        </center>
+    </div>
+</body>
+</html>
